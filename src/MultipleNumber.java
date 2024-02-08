@@ -13,7 +13,7 @@ public class MultipleNumber {
 
         System.out.println("Give me the number of integers that you want");
         try{
-            int length = Short.parseShort(this.sc.nextLine());
+            short length = Short.parseShort(this.sc.nextLine());
             this.numbers = new int[length];
         }catch (NumberFormatException e) {
             System.out.println("Your value is not a number");
